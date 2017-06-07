@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0385CCC6EA10A0AF6F87C5DF /* Pods_Breakfast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F97A170B7EB4ECB0090C583 /* Pods_Breakfast.framework */; };
+		B39AC32C1EE7CED7008A2165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC32B1EE7CED7008A2165 /* AppDelegate.swift */; };
+		B39AC32E1EE7CED7008A2165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC32D1EE7CED7008A2165 /* ViewController.swift */; };
+		B39AC3311EE7CED7008A2165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39AC32F1EE7CED7008A2165 /* Main.storyboard */; };
+		B39AC3331EE7CED7008A2165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39AC3321EE7CED7008A2165 /* Assets.xcassets */; };
+		B39AC3361EE7CED7008A2165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39AC3341EE7CED7008A2165 /* LaunchScreen.storyboard */; };
+		B39AC33E1EE7E4E3008A2165 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC33D1EE7E4E3008A2165 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E33BEC94D43E7258A8CA6B5 /* Pods-Breakfast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakfast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breakfast/Pods-Breakfast.debug.xcconfig"; sourceTree = "<group>"; };
+		7F97A170B7EB4ECB0090C583 /* Pods_Breakfast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakfast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39AC3281EE7CED7008A2165 /* Breakfast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakfast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39AC32B1EE7CED7008A2165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B39AC32D1EE7CED7008A2165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B39AC3301EE7CED7008A2165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B39AC3321EE7CED7008A2165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B39AC3351EE7CED7008A2165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B39AC3371EE7CED7008A2165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39AC33D1EE7E4E3008A2165 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DA4CDF09BD97F0F1F983347B /* Pods-Breakfast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakfast.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakfast/Pods-Breakfast.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39AC3251EE7CED7008A2165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0385CCC6EA10A0AF6F87C5DF /* Pods_Breakfast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF43C198E73F4F3B5088F799 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E33BEC94D43E7258A8CA6B5 /* Pods-Breakfast.debug.xcconfig */,
+				DA4CDF09BD97F0F1F983347B /* Pods-Breakfast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B39AC31F1EE7CED7008A2165 = {
+			isa = PBXGroup;
+			children = (
+				B39AC32A1EE7CED7008A2165 /* Breakfast */,
+				B39AC3291EE7CED7008A2165 /* Products */,
+				AF43C198E73F4F3B5088F799 /* Pods */,
+				CCDD98078D5D013FA63F1B03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B39AC3291EE7CED7008A2165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39AC3281EE7CED7008A2165 /* Breakfast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B39AC32A1EE7CED7008A2165 /* Breakfast */ = {
+			isa = PBXGroup;
+			children = (
+				B39AC32B1EE7CED7008A2165 /* AppDelegate.swift */,
+				B39AC32D1EE7CED7008A2165 /* ViewController.swift */,
+				B39AC32F1EE7CED7008A2165 /* Main.storyboard */,
+				B39AC3321EE7CED7008A2165 /* Assets.xcassets */,
+				B39AC3341EE7CED7008A2165 /* LaunchScreen.storyboard */,
+				B39AC3371EE7CED7008A2165 /* Info.plist */,
+				B39AC33D1EE7E4E3008A2165 /* HomeViewController.swift */,
+			);
+			path = Breakfast;
+			sourceTree = "<group>";
+		};
+		CCDD98078D5D013FA63F1B03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F97A170B7EB4ECB0090C583 /* Pods_Breakfast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39AC3271EE7CED7008A2165 /* Breakfast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39AC33A1EE7CED7008A2165 /* Build configuration list for PBXNativeTarget "Breakfast" */;
+			buildPhases = (
+				79BAB28EEA6962583F1F9C35 /* [CP] Check Pods Manifest.lock */,
+				B39AC3241EE7CED7008A2165 /* Sources */,
+				B39AC3251EE7CED7008A2165 /* Frameworks */,
+				B39AC3261EE7CED7008A2165 /* Resources */,
+				0EFB547A01CA66BDABEA7BF0 /* [CP] Embed Pods Frameworks */,
+				BC3AD236E4F8F6AD41221032 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Breakfast;
+			productName = Breakfast;
+			productReference = B39AC3281EE7CED7008A2165 /* Breakfast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39AC3201EE7CED7008A2165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "卢键";
+				TargetAttributes = {
+					B39AC3271EE7CED7008A2165 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GL5F37T932;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B39AC3231EE7CED7008A2165 /* Build configuration list for PBXProject "Breakfast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B39AC31F1EE7CED7008A2165;
+			productRefGroup = B39AC3291EE7CED7008A2165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39AC3271EE7CED7008A2165 /* Breakfast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39AC3261EE7CED7008A2165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39AC3361EE7CED7008A2165 /* LaunchScreen.storyboard in Resources */,
+				B39AC3331EE7CED7008A2165 /* Assets.xcassets in Resources */,
+				B39AC3311EE7CED7008A2165 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EFB547A01CA66BDABEA7BF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breakfast/Pods-Breakfast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BAB28EEA6962583F1F9C35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC3AD236E4F8F6AD41221032 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breakfast/Pods-Breakfast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39AC3241EE7CED7008A2165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39AC32E1EE7CED7008A2165 /* ViewController.swift in Sources */,
+				B39AC32C1EE7CED7008A2165 /* AppDelegate.swift in Sources */,
+				B39AC33E1EE7E4E3008A2165 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B39AC32F1EE7CED7008A2165 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39AC3301EE7CED7008A2165 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B39AC3341EE7CED7008A2165 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39AC3351EE7CED7008A2165 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39AC3381EE7CED7008A2165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B39AC3391EE7CED7008A2165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B39AC33B1EE7CED7008A2165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E33BEC94D43E7258A8CA6B5 /* Pods-Breakfast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GL5F37T932;
+				INFOPLIST_FILE = Breakfast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jianlu.Breakfast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B39AC33C1EE7CED7008A2165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4CDF09BD97F0F1F983347B /* Pods-Breakfast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GL5F37T932;
+				INFOPLIST_FILE = Breakfast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jianlu.Breakfast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39AC3231EE7CED7008A2165 /* Build configuration list for PBXProject "Breakfast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39AC3381EE7CED7008A2165 /* Debug */,
+				B39AC3391EE7CED7008A2165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39AC33A1EE7CED7008A2165 /* Build configuration list for PBXNativeTarget "Breakfast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39AC33B1EE7CED7008A2165 /* Debug */,
+				B39AC33C1EE7CED7008A2165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39AC3201EE7CED7008A2165 /* Project object */;
+}

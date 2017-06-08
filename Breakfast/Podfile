@@ -6,6 +6,8 @@ target 'Breakfast' do
   use_frameworks!
 	pod 'SwiftyJSON'
 	pod 'Alamofire', '~> 4.4'
+        pod 'HandyJSON', '~> 1.7.1'
+        pod "TabPageViewController"
   # Pods for Breakfast
 
 end

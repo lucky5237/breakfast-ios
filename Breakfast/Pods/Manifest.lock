@@ -1,15 +1,21 @@
 PODS:
   - Alamofire (4.4.0)
+  - HandyJSON (1.7.1)
   - SwiftyJSON (3.1.4)
+  - TabPageViewController (0.2.7)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
+  - HandyJSON (~> 1.7.1)
   - SwiftyJSON
+  - TabPageViewController
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  HandyJSON: 54b6ce942795f7b2e61b82fe73cf25d9f139d125
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TabPageViewController: c37a1257a50c2b50712dde61bf499768eee95b67
 
-PODFILE CHECKSUM: 338d35a03d06c3c79662227e618c0c784cc09ec7
+PODFILE CHECKSUM: b9f300c83f2646e51972d8723bfd13458b644cab
 
 COCOAPODS: 1.2.1

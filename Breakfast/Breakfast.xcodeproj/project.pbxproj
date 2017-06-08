@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0385CCC6EA10A0AF6F87C5DF /* Pods_Breakfast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F97A170B7EB4ECB0090C583 /* Pods_Breakfast.framework */; };
+		B309391B1EE939370029DFD2 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309391A1EE939370029DFD2 /* Const.swift */; };
 		B39AC32C1EE7CED7008A2165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC32B1EE7CED7008A2165 /* AppDelegate.swift */; };
 		B39AC32E1EE7CED7008A2165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC32D1EE7CED7008A2165 /* ViewController.swift */; };
 		B39AC3311EE7CED7008A2165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39AC32F1EE7CED7008A2165 /* Main.storyboard */; };
 		B39AC3331EE7CED7008A2165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39AC3321EE7CED7008A2165 /* Assets.xcassets */; };
 		B39AC3361EE7CED7008A2165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39AC3341EE7CED7008A2165 /* LaunchScreen.storyboard */; };
 		B39AC33E1EE7E4E3008A2165 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC33D1EE7E4E3008A2165 /* HomeViewController.swift */; };
+		B39AC3401EE8E6C5008A2165 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC33F1EE8E6C5008A2165 /* ProductCell.swift */; };
+		B39AC3421EE8E867008A2165 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC3411EE8E867008A2165 /* ProductTableViewController.swift */; };
+		B39AC3441EE8ED75008A2165 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC3431EE8ED75008A2165 /* RequestModel.swift */; };
+		B39AC3461EE8EE4F008A2165 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39AC3451EE8EE4F008A2165 /* ResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E33BEC94D43E7258A8CA6B5 /* Pods-Breakfast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakfast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breakfast/Pods-Breakfast.debug.xcconfig"; sourceTree = "<group>"; };
 		7F97A170B7EB4ECB0090C583 /* Pods_Breakfast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakfast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B309391A1EE939370029DFD2 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		B39AC3281EE7CED7008A2165 /* Breakfast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakfast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39AC32B1EE7CED7008A2165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B39AC32D1EE7CED7008A2165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +33,10 @@
 		B39AC3351EE7CED7008A2165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B39AC3371EE7CED7008A2165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B39AC33D1EE7E4E3008A2165 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B39AC33F1EE8E6C5008A2165 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		B39AC3411EE8E867008A2165 /* ProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		B39AC3431EE8ED75008A2165 /* RequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		B39AC3451EE8EE4F008A2165 /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 		DA4CDF09BD97F0F1F983347B /* Pods-Breakfast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakfast.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakfast/Pods-Breakfast.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +89,11 @@
 				B39AC3341EE7CED7008A2165 /* LaunchScreen.storyboard */,
 				B39AC3371EE7CED7008A2165 /* Info.plist */,
 				B39AC33D1EE7E4E3008A2165 /* HomeViewController.swift */,
+				B39AC33F1EE8E6C5008A2165 /* ProductCell.swift */,
+				B39AC3411EE8E867008A2165 /* ProductTableViewController.swift */,
+				B39AC3431EE8ED75008A2165 /* RequestModel.swift */,
+				B39AC3451EE8EE4F008A2165 /* ResponseModel.swift */,
+				B309391A1EE939370029DFD2 /* Const.swift */,
 			);
 			path = Breakfast;
 			sourceTree = "<group>";
@@ -216,8 +231,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B39AC32E1EE7CED7008A2165 /* ViewController.swift in Sources */,
+				B39AC3401EE8E6C5008A2165 /* ProductCell.swift in Sources */,
 				B39AC32C1EE7CED7008A2165 /* AppDelegate.swift in Sources */,
 				B39AC33E1EE7E4E3008A2165 /* HomeViewController.swift in Sources */,
+				B39AC3461EE8EE4F008A2165 /* ResponseModel.swift in Sources */,
+				B309391B1EE939370029DFD2 /* Const.swift in Sources */,
+				B39AC3421EE8E867008A2165 /* ProductTableViewController.swift in Sources */,
+				B39AC3441EE8ED75008A2165 /* RequestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

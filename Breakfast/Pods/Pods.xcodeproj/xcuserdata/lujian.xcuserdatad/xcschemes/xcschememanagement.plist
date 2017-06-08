@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HandyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Breakfast.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,20 +24,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TabPageViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>03C71F47F9AFF64E51730F06F8ED6BFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2771B241FCE337E606D5617826A23443</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A0394D33DD220F80896B1AF574C3902F</key>
+		<key>8A09D1833CF9FB107E2C3D12E4D8E62B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3A80191CD9F7535DDF9BE087AE461D4</key>
+		<key>C132623E68FDC94ADDAAB69BA9A98C36</key>
 		<dict>
 			<key>primary</key>
 			<true/>

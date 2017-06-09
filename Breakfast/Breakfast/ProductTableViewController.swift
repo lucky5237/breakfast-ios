@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ProductTableViewController: UITableViewController {
+class ProductTableViewController: UITableViewController{
     
     var placeId:Int? = 1
     let number = 10
@@ -19,17 +19,20 @@ class ProductTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
         self.refreshControl = UIRefreshControl()
         refreshControl?.attributedTitle = NSAttributedString(string: "下拉刷新")
         self.refreshControl?.addTarget(self, action: #selector(ProductTableViewController.beginRefresh), for: .valueChanged)
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        //        getProductList()
+//        // Uncomment the following line to preserve selection between presentations
+//        // self.clearsSelectionOnViewWillAppear = false
+//        
+//        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+//        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+//        //        getProductList()
         refreshControl?.beginRefreshing()
         beginRefresh()
+//        tableView.isScrollEnabled = false
         
         
     }
@@ -72,16 +75,12 @@ class ProductTableViewController: UITableViewController {
             switch response.result{
             case .success:
                 if let res = BaseResponseModel<Array<Food>>.deserialize(from: response.result.value) {
-                    print(res.code!)
-                    print(res.data!.description)
-//                    NSLog(res., <#T##args: CVarArg...##CVarArg#>)
                     self.foodList.removeAll()
                     if let datas = res.data{
                         datas.forEach({ food in
                         self.foodList.append(food)
                         })
                     }
-                    
                 }
                 self.tableView.reloadData()
                 //                let resultJson = JSON(response.result.value!)
@@ -94,16 +93,17 @@ class ProductTableViewController: UITableViewController {
 //            indicatorView.stopAnimating()
         })
     }
-    
+    			
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "productCellIdentifier",for: indexPath) as! ProductCell
         let item = foodList[indexPath.row]
         //        cell.imageView?.image = UIImage(named: item.image)
-        Alamofire.request("http://192.168.2.1:5000/static/image/"+item.image!+".jpg").responseData(completionHandler: { data in
-            cell.imageView?.image = UIImage(data: data.result.value!)
-        })
-        cell.name.text = item.name
-        cell.price.text = "\(item.price!)"
+        //        Alamofire.request("http://192.168.2.1:5000/static/image/"+item.image!+".jpg").responseData(completionHandler: { data in
+        //            cell.imageView?.image = UIImage(data: data.result.value!)
+        //        })
+        cell.name.text = item.name ?? ""
+        cell.place.text = "\(item.place?.name!)"
         cell.time.text = item.createTs ?? ""
         cell.saleNum.text = "\(item.sales!)"
         return cell

@@ -10,12 +10,11 @@ import UIKit
 
 class ProductCell: UITableViewCell {
 
+    @IBOutlet weak var saleNum: UILabel!
+    @IBOutlet weak var time: UILabel!
+    @IBOutlet weak var place: UILabel!
     @IBOutlet weak var photo: UIImageView!
     @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var price: UILabel!
-    @IBOutlet weak var time: UILabel!
-    @IBOutlet weak var saleNum: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,6 +25,7 @@ class ProductCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
     
     
 
